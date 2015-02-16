@@ -10,6 +10,7 @@
   h1 {font-family: 'Special Elite';}
   .thing {padding-left: 1em; margin-bottom: 3em;}
   img {margin: 0 auto; max-width: 600px; box-shadow: 0 5px 5px -3px black;}
+  #copyright{text-align: center; font-size: small;}
   </style>
 </head>
 
@@ -17,5 +18,9 @@
   <div id="allthings">
     <h1>colw</h1>
 %s
+  </div>
+  
+  <div id="copyright">
+    © 2015 <a href="mailto:colw@outlook.com">colw</a>
   </div>
 </body>
