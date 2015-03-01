@@ -41,8 +41,10 @@ function writePostToDirectory(postObject) {
   var postTemplate = fs.readFileSync(path.join(TEMPLATES, 'post.template'), readOptions);
   var fileTemplate = fs.readFileSync(path.join(TEMPLATES, 'index.template'), readOptions);
   
+  var linkToPost = path.join(POST_DIR, postObject.basepath, postObject.urlname + '.html');
+  
   var fmtDate = moment(postObject.date).format('MMMM Do YYYY');
-  var thePost = util.format(postTemplate, postObject.title, fmtDate, converter.makeHtml(postObject.text))
+  var thePost = util.format(postTemplate, linkToPost, postObject.title, fmtDate, converter.makeHtml(postObject.text))
   
   var postPage = util.format(fileTemplate, thePost);
   fs.writeFileSync(path.join(POST_DIR, postObject.basepath, postObject.urlname + '.html'), postPage);
@@ -50,7 +52,7 @@ function writePostToDirectory(postObject) {
   return thePost;
 }
 
-/* Inserts all posts into a main index.html file */
+/* Inserts all posts into a main index.html file, and writes. */
 function writeIndexPage(htmlPosts) {  
   var masterFileContents = fs.readFileSync(path.join(TEMPLATES, 'index.template'), readOptions);
   var indexPage = util.format(masterFileContents, htmlPosts.join('\n\n'));
