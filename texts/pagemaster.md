@@ -1,4 +1,4 @@
-⦿ Page Making
+Page Making
 -------------
   Friday, 13 February 2015
 
