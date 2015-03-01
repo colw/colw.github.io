@@ -1,4 +1,4 @@
-News As It Happens, with Others
+News, As It's Published
 ----------------------------
   Tuesday, 24 February 2015
 

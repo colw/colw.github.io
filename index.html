@@ -5,22 +5,40 @@
   <title>colw</title>
   <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
-  <style type="text/css" media="screen">
-  body {font-family: sans-serif; font-weight: 400;}
-  #allthings {padding-left: 0.5em; max-width: 600px; margin: 0 auto;}
-  h1 {font-family: 'Special Elite'; }
-  .thing {padding-left: 1em; margin-bottom: 3em;}
-  img {display: block; margin: 0 auto; padding: 1em 0 1em 0; max-width: 600px;}
-  #copyright{text-align: center; font-size: small;}
-  </style>
-  
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<style>
+h1 {font-family: 'Special Elite', Serif;}
+img {display: block; margin: 0 auto; max-width: 100%; padding: 2em 0 2em 0;}
+.postheadlink {color: #073A66;}
+.post {margin: 5em 0 5em 0;}
+.postdate {font-size: small; color: gray; margin-bottom: 2em;}
+#copyright {text-align: center;}
+</style>
+
 </head>
 
 <body>
-  <div id="allthings">
-    <h1>colw</h1>
-<a href="posts/2015/2/27/thewellreadruminant.html"><h2 class="postheading">The Well Read Ruminant</h2></a>
-<span class="postdate">February 27th 2015</span>
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+    
+      <h1>colw</h1>
+
+      <div id="posts">
+      <div class="post">
+<a href="posts/2015/2/27/thewellreadruminant.html" class="postheadlink"><h2 class="postheading">The Well Read Ruminant</h2></a>
+<div class="postdate">Friday, 27 February 2015</div>
 <div class="postcontent"><p>The Ruminant does the work for you, sending you news from a selection of sources around the world. You don't have to do anything.</p>
 
 <p><img src="/images/Guernsey_cow.png" alt="A black and white cow" title="A well read Ruminant" /></p>
@@ -32,9 +50,12 @@ you right. Add a '-' to the start of any filter for exclusions.</p>
 <p>Click any filter tags to remove them. It's like they were never there.</p>
 
 <p><a href="http://www.wellreadruminant.com">The Well Read Ruminant</a></p></div>
+</div>
 
-<a href="posts/2015/2/24/newsasithappenswithothers.html"><h2 class="postheading">News As It Happens, with Others</h2></a>
-<span class="postdate">February 24th 2015</span>
+
+<div class="post">
+<a href="posts/2015/2/24/newsasitspublished.html" class="postheadlink"><h2 class="postheading">News, As It's Published</h2></a>
+<div class="postdate">Tuesday, 24 February 2015</div>
 <div class="postcontent"><p>A simple news feed aggregator I've been working on. I'm still polishing up the interface but it's quite useable, at least locally.</p>
 
 <p>Set your own RSS feeds in the config file, load it up and wait for something interesting to come in. Once running you can filter the
@@ -48,13 +69,19 @@ rendered in the client using Facebook's <a href="http://facebook.github.io/react
 <p>All communication happens via <a href="http://socket.io">Socket.io</a>, and for a bit of fun the number of other readers is broadcast.</p>
 
 <p>See the <a href="https://github.com/colw/nxws/">code</a> and try it for yourself.</p></div>
+</div>
 
-<a href="posts/2015/2/15/sunsetsummertasteatmauerpark.html"><h2 class="postheading">Sunset, Summer Taste at Mauerpark</h2></a>
-<span class="postdate">February 15th 2015</span>
+
+<div class="post">
+<a href="posts/2015/2/15/sunsetsummertasteatmauerpark.html" class="postheadlink"><h2 class="postheading">Sunset, Summer Taste at Mauerpark</h2></a>
+<div class="postdate">Sunday, 15 February 2015</div>
 <div class="postcontent"><p><img src="/images/mauerpark.jpg" alt="View from the top of the hill as the sun sets over Mauerpark in Berlin" title="Sunset at Mauerpark, Berlin" /></p></div>
+</div>
 
-<a href="posts/2015/2/13/pagemaking.html"><h2 class="postheading">⦿ Page Making</h2></a>
-<span class="postdate">February 13th 2015</span>
+
+<div class="post">
+<a href="posts/2015/2/13/pagemaking.html" class="postheadlink"><h2 class="postheading">⦿ Page Making</h2></a>
+<div class="postdate">Friday, 13 February 2015</div>
 <div class="postcontent"><p>All programmers are tempted to roll their own writing platform at some point. This website is my turn.</p>
 
 <p>In terms of sophistication, it sits somewhere between WordPress and a pencil. The app will read Markdown files from a folder called 'posts',
@@ -65,9 +92,12 @@ and then spit out an index page. Posts are ordered by date. No special syntax, i
 <p>I'm happy with that, and I'll add to it as I see fit.</p>
 
 <p><a href="https://github.com/colw/colw.github.io/">See the repository for more details</a>.</p></div>
+</div>
 
-<a href="posts/2015/2/12/spotthestationtools.html"><h2 class="postheading">Spot the Station Tools</h2></a>
-<span class="postdate">February 12th 2015</span>
+
+<div class="post">
+<a href="posts/2015/2/12/spotthestationtools.html" class="postheadlink"><h2 class="postheading">Spot the Station Tools</h2></a>
+<div class="postdate">Thursday, 12 February 2015</div>
 <div class="postcontent"><p>NASA has built a <a href="http://spotthestation.nasa.gov">great website</a> to see a listing of
 <a href="http://en.wikipedia.org/wiki/International_Space_Station">ISS</a> sightings by city. It comes in tabular form with an accessible RSS feed. For
 example, here is the listing for <a href="http://spotthestation.nasa.gov/sightings/view.cfm?country=Germany&amp;region=None&amp;city=Berlin">Berlin, Germany</a>.</p>
@@ -85,9 +115,17 @@ folder. Then subscribe to that location using your calendar app.</p>
 <p>I personally use Apple's Calendar apps on Mac OS X and iOS to test this. Google Calendar doesn't complain though. Your mileage may vary.</p>
 
 <p>It's only 'developer friendly' right now, and a work in progress. It wouldn't take much work to create a user friendly front end.</p></div>
+</div>
+
+      </div>
+      
+      <div id="copyright">
+       Copyright © <a href="mailto:colw@outlook.com">colw</a>
+      </div>    
+    </div>
+    
+    <div class="col-md-3"></div>
   </div>
-  
-  <div id="copyright">
-    © 2015 <a href="mailto:colw@outlook.com">colw</a>
-  </div>
+</div> 
+
 </body>

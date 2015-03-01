@@ -1,3 +1,5 @@
-<a href="%s"><h2 class="postheading">%s</h2></a>
-<span class="postdate">%s</span>
+<div class="post">
+<a href="%s" class="postheadlink"><h2 class="postheading">%s</h2></a>
+<div class="postdate">%s</div>
 <div class="postcontent">%s</div>
+</div>

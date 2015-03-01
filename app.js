@@ -43,7 +43,7 @@ function writePostToDirectory(postObject) {
   
   var linkToPost = path.join(POST_DIR, postObject.basepath, postObject.urlname + '.html');
   
-  var fmtDate = moment(postObject.date).format('MMMM Do YYYY');
+  var fmtDate = moment(postObject.date).format('dddd, D MMMM YYYY');
   var thePost = util.format(postTemplate, linkToPost, postObject.title, fmtDate, converter.makeHtml(postObject.text))
   
   var postPage = util.format(fileTemplate, thePost);

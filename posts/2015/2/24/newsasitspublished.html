@@ -37,19 +37,21 @@ img {display: block; margin: 0 auto; max-width: 100%; padding: 2em 0 2em 0;}
 
       <div id="posts">
       <div class="post">
-<a href="posts/2015/2/27/thewellreadruminant.html" class="postheadlink"><h2 class="postheading">The Well Read Ruminant</h2></a>
-<div class="postdate">Friday, 27 February 2015</div>
-<div class="postcontent"><p>The Ruminant does the work for you, sending you news from a selection of sources around the world. You don't have to do anything.</p>
+<a href="posts/2015/2/24/newsasitspublished.html" class="postheadlink"><h2 class="postheading">News, As It's Published</h2></a>
+<div class="postdate">Tuesday, 24 February 2015</div>
+<div class="postcontent"><p>A simple news feed aggregator I've been working on. I'm still polishing up the interface but it's quite useable, at least locally.</p>
 
-<p><img src="/images/Guernsey_cow.png" alt="A black and white cow" title="A well read Ruminant" /></p>
+<p>Set your own RSS feeds in the config file, load it up and wait for something interesting to come in. Once running you can filter the
+feed using the input on the right, creating tags as you go.</p>
 
-<p>You can choose what you want to see. Only interested in what's happening in Copenhagen? Enter 'copenhagen' into the side bar and press
-Enter. Only want to see news from Reuters? Enter 'reuters.com'. Don't want to see anything from The New York Times? '-nytimes' will do
-you right. Add a '-' to the start of any filter for exclusions.</p>
+<p><img src="/images/newscow.png" alt="A screenshot of a new feed aggregator" title="News Feed Aggregator" /></p>
 
-<p>Click any filter tags to remove them. It's like they were never there.</p>
+<p>Technically, it's a Node.js backend that will periodically refresh from an array of urls in a json file. These are then
+rendered in the client using Facebook's <a href="http://facebook.github.io/react/">React</a> framework.</p>
 
-<p><a href="http://www.wellreadruminant.com">The Well Read Ruminant</a></p></div>
+<p>All communication happens via <a href="http://socket.io">Socket.io</a>, and for a bit of fun the number of other readers is broadcast.</p>
+
+<p>See the <a href="https://github.com/colw/nxws/">code</a> and try it for yourself.</p></div>
 </div>
 
       </div>
