@@ -1,6 +1,6 @@
 ⦿ Page Making
 -------------
-    Friday, 13 February 2015
+  Friday, 13 February 2015
 
 All programmers are tempted to roll their own writing platform at some point. This website is my turn.
 

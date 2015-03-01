@@ -1,6 +1,6 @@
-⦿ Spot the Station Tools
+Spot the Station Tools
 ------------------------
-    Thursday, 12 February 2015
+  Thursday, 12 February 2015
 
 NASA has built a [great website](http://spotthestation.nasa.gov) to see a listing of
 [ISS](http://en.wikipedia.org/wiki/International_Space_Station) sightings by city. It comes in tabular form with an accessible RSS feed. For
