@@ -1,15 +1,25 @@
 The Well Read Ruminant
-----------------------------
+----------------------
   Friday, 27 February 2015
     
-The Ruminant does the work for you, sending you news from a selection of sources around the world. You don't have to do anything.
+The Ruminant does the work for you, sending you news from a selection of sources around the world. You don't have to do
+anything.
 
-![A black and white cow](/images/Guernsey_cow.png "A well read Ruminant")
+[![A black and white cow][2]][1]
 
-You can choose what you want to see. Only interested in what's happening in Copenhagen? Enter 'copenhagen' into the side bar and press
-Enter. Only want to see news from Reuters? Enter 'reuters.com'. Don't want to see anything from The New York Times? '-nytimes' will do
-you right. Add a '-' to the start of any filter for exclusions.
+It's very easy to search or filter by typing in the box. It's instant actually, and if you want to keep it, just hit
+enter and the term will be added to a tag list. You can stack filter tags on top of each other.
+
+As an extra, place a dash (-) at the beginning of the term and you can choose what *not* to see.
  
-Click any filter tags to remove them. It's like they were never there.
+Click any filter tags to remove them and it's like they were never there. Magic.
 
-[The Well Read Ruminant](http://www.wellreadruminant.com)
+This is a work in porgress. I'm still experiementing with the feed selection. How many is too many, or how little is
+not enough. I personally find myself using it with a few tabs open, and each one has a different set of filters.
+
+Feedback is most welcome!
+
+[The Well Read Ruminant][1]
+
+[1]: http://www.wellreadruminant.com
+[2]: /images/Guernsey_cow.png "A well read Ruminant"
