@@ -14,12 +14,17 @@ As an extra, place a dash (-) at the beginning of the term and you can choose wh
  
 Click any filter tags to remove them and it's like they were never there. Magic.
 
-This is a work in porgress. I'm still experiementing with the feed selection. How many is too many, or how little is
-not enough. I personally find myself using it with a few tabs open, and each one has a different set of filters.
+This is a work in progress. I'm still experiementing with the feed selection. How many is too many, or how little is
+not enough.
+
+I personally find myself using it with a few tabs open, each one with a different set of filters. Other times, I just
+filter as I go.
 
 Feedback is most welcome!
 
 [The Well Read Ruminant][1]
+
+(hint: click the cow)
 
 [1]: http://www.wellreadruminant.com
 [2]: /images/Guernsey_cow.png "A well read Ruminant"
