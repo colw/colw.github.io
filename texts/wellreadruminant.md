@@ -14,11 +14,11 @@ As an extra, place a dash (-) at the beginning of the term and you can choose wh
  
 Click any filter tags to remove them and it's like they were never there. Magic.
 
-This is a work in progress. I'm still experiementing with the feed selection. How many is too many, or how little is
-not enough.
-
 I personally find myself using it with a few tabs open, each one with a different set of filters. Other times, I just
 filter as I go.
+
+This is a work in progress. I'm still experiementing with the feed selection and trying to strike a balance. How much
+is too much, or how little is not enough.
 
 Feedback is most welcome!
 
