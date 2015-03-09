@@ -16,3 +16,5 @@ e.g.
 
 Sometimes a region is needed, other times not. For now, just use the [NASA App](http://spotthestation.nasa.gov) to find
 the correct name hierarchy for your city.
+
+*Note: I threw this together quickly. It works, and well enough to share, but it's still at a very early stage.*
