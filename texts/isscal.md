@@ -11,8 +11,8 @@ There's no fancy front end yet, just a URL Scheme that follows:
 
 e.g.
 
- - [Sightings for Sydney, Australia](http://spotthestationcal.herokuapp.com/place/Australia/New_South_Wales/Sydney)
- - [Sightings for Berlin, Germany](http://spotthestationcal.herokuapp.com/place/Germany/Berlin)
+ - [Sightings for Sydney, Australia (iCal)](http://spotthestationcal.herokuapp.com/calendar/Australia/New_South_Wales/Sydney)
+ - [Sightings for Berlin, Germany (JSON)](http://spotthestationcal.herokuapp.com/timetable/Germany/None/Berlin)
 
 Sometimes a region is needed, other times not. For now, just use the [NASA App](http://spotthestation.nasa.gov) to find
 the correct name hierarchy for your city.
