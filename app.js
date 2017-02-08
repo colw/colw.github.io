@@ -2,7 +2,7 @@ var fs = require('fs')
 var path = require('path');
 var mkdirp = require('mkdirp');
 var util = require('util');
-var converter = new (require('showdown')).converter();
+var converter = new (require('showdown')).Converter();
 var moment = require('moment');
 
 var POST_DIR = 'posts';
